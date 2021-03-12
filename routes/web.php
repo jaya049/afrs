@@ -30,3 +30,7 @@ Route::get('viewairport',[AirlineController::class,'viewairport']);//view airpor
 Route::view('flightsearchform','flightsearch');
 Route::get('searchflight',[AirlineController::class,'searchflight']);
 
+//Flight book
+Route::view('flightbook_form','flightbook');
+Route::get('flightbook',[AirlineController::class,'flightbook']);
+

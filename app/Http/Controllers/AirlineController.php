@@ -76,6 +76,13 @@ class AirlineController extends Controller
         }
 
     }
+    function flightbook()
+    {
+        $data=Airport::all();
+        return view('airportdetails_view',['row'=>$data]);
+    }
+
+
     // public function index()
     // {
     //     $users = DB::table('users')->select('id','name','email')->get();

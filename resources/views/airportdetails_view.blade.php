@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+@extends('dashboard')
+@section('content')
     <head>
         <title>flight view by admin</title>
             <meta charset=utf-8>
@@ -112,12 +114,9 @@
  
     </table>
   </form>
-</body>
-</html>
-
-
-
-
+  @endsection
 
 </body>
 </html>
+
+
